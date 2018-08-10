@@ -8,28 +8,27 @@ h1 {
 
 .namebanner {
     background-color: #4aaaa5;
-    box-align: left;
-    margin: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 200px;
 }
 
 body { 
-    background-image: url(assets/images/backgroundimage.png);
+    background-image: url(/Users/Machomutant/gt/homework/Basic_Portfolio/assets/images/backgroundimage.png);
     background-repeat: repeat;
 }
 
 header {
-    border-color: #cccccc;
     background-color: #ffffff;
     margin-left:auto;
     margin-right:auto;
 }
 
 .headerbox {
-    float:center; 
-    background-color: #ffffff;
-    width:960px; 
-    height:100px; 
-    margin:auto;
+    float: center;
+    height:100px;
+    margin-left:auto;
+    margin-right:auto; 
 }
 
 .container {
@@ -38,4 +37,14 @@ header {
     width:960px; 
     height:400px; 
     margin:auto;
+}
+
+img {
+    margin: 15px;
+}
+
+.topnav {
+    background-color: #ffffff;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
