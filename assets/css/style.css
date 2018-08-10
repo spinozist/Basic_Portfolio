@@ -4,15 +4,17 @@ h1 {
 
 .name {
     color: white;
+    padding-left: 15px;
+    vertical-align: middle;
 }
 
 .namebanner {
-    background-color: #4aaaa5;
-    margin-top: auto;
-    margin-bottom: auto;
-    width: 200px;
+    display: inline-block;
+    height: 100%;
+    background-color:#4aaaa5;
+    width: 250px;
+    vertical-align: middle;
 }
-
 body { 
     background-image: url(/Users/Machomutant/gt/homework/Basic_Portfolio/assets/images/backgroundimage.png);
     background-repeat: repeat;
@@ -20,15 +22,15 @@ body {
 
 header {
     background-color: #ffffff;
+    width:960px;
+    height:100px;
     margin-left:auto;
     margin-right:auto;
 }
 
 .headerbox {
-    float: center;
     height:100px;
-    margin-left:auto;
-    margin-right:auto; 
+    width:960px;   
 }
 
 .container {
@@ -47,4 +49,7 @@ img {
     background-color: #ffffff;
     margin-top: 15px;
     margin-bottom: 15px;
+    width: 300px;
+    display: inline-block;
+    vertical-align: middle;
 }
