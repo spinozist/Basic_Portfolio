@@ -8,6 +8,10 @@ h1 {
     vertical-align: middle;
 }
 
+.title {
+    color: #4aaaa5;
+}
+
 .namebanner {
     display: inline-block;
     height: 100%;
