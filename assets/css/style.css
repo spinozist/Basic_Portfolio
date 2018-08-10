@@ -1,0 +1,41 @@
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.name {
+    color: white;
+}
+
+.namebanner {
+    background-color: #4aaaa5;
+    box-align: left;
+    margin: auto;
+}
+
+body { 
+    background-image: url(assets/images/backgroundimage.png);
+    background-repeat: repeat;
+}
+
+header {
+    border-color: #cccccc;
+    background-color: #ffffff;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.headerbox {
+    float:center; 
+    background-color: #ffffff;
+    width:960px; 
+    height:100px; 
+    margin:auto;
+}
+
+.container {
+    float:center; 
+    background-color: #ffffff;
+    width:960px; 
+    height:400px; 
+    margin:auto;
+}
