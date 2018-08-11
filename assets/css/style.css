@@ -3,13 +3,19 @@ h1 {
 }
 
 .name {
+    float: left;
     color: white;
-    padding-left: 15px;
+    background-color: #4aaaa5;
+    padding: 15px;
     vertical-align: middle;
 }
 
 .title {
     color: #4aaaa5;
+}
+
+p {
+    padding: 15px 15px;
 }
 
 .namebanner {
@@ -32,9 +38,7 @@ header {
     margin-right:auto;
 }
 
-.headerbox {
-    height:100px;
-    width:960px;   
+.headerbox {  
 }
 
 .container {
@@ -46,14 +50,11 @@ header {
 }
 
 img {
-    margin: 15px;
+    margin: 15px 15px 15px;
 }
 
 .topnav {
+    float: right;
     background-color: #ffffff;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    width: 300px;
-    display: inline-block;
-    vertical-align: middle;
+    padding: 15px;
 }
