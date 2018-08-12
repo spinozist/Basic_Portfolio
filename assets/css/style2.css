@@ -46,12 +46,27 @@ body {
 }
 .title {
     color: #4aaaa5;
+    border-bottom: solid;
+    border-bottom-color: darkgray;
+    padding-bottom: 20px;
 }
 
 a {
-    padding-left: 30px;
+    padding-left: 10px;
     font-size: 20px;
     text-decoration: none;
+}
+
+#middle-butt {
+    border-right: solid;
+    border-right-color: darkgrey;
+    padding-right: 10px;
+    border-left: solid;
+    border-left-color: darkgrey;
+}
+
+#left-butt {
+    padding-right: 10px;
 }
 
 img {
@@ -77,4 +92,15 @@ input, textarea {
     background-color: #4aaaa5;
     border-color: #4aaaa5;
     text-align: center;
+}
+
+.imagelabel {
+    float: left;
+    position: absolute;
+    background-color: #4aaaa5;
+    color: white;
+    height: 50px;
+    width: 250px;
+    z-index: 1;
+    top: 500px;
 }
