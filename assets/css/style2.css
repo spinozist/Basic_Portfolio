@@ -55,6 +55,13 @@ a {
     padding-left: 10px;
     font-size: 20px;
     text-decoration: none;
+    color: darkgrey;
+}
+
+.hyperlink {
+    color: #4aaaa5;
+    padding: 0px;
+    font-size: 18px;
 }
 
 #middle-butt {
@@ -62,6 +69,7 @@ a {
     border-right-color: darkgrey;
     padding-right: 10px;
     border-left: solid;
+    border-width: 1px;
     border-left-color: darkgrey;
 }
 
@@ -94,4 +102,17 @@ input, textarea {
 
 #portfolio-box {
     height: 1000px;
+}
+
+.image-wrap {
+    position: relative;
+    text-align: center;
+}
+
+.image-label {
+    position: absolute;
+    background-color: #4aaaa5;
+    color: white;
+    top: 130px;
+    width: 250px;
 }
