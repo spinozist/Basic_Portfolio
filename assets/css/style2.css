@@ -5,6 +5,7 @@ header {
 body { 
     background-image: url(/Users/Machomutant/gt/homework/Basic_Portfolio/assets/images/backgroundimage.png);
     background-repeat: repeat;
+    margin: 0;
 }
 
 .name {
@@ -38,6 +39,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     margin-top: 20px;
+    padding-bottom: 20px;
 }
 
 .inside-container {
@@ -85,10 +87,17 @@ img {
     position: relative;
 }
 
+textarea {
+    max-width: 920px;
+    min-width: 920px;
+    border-color: lightgrey;
+}
+
 p {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
-    line-height: 40px;
+    line-height: 30px;
+    color: darkgrey;
 }
 
 input, textarea {
