@@ -3,7 +3,7 @@ header {
 }
 
 body { 
-    background-image: url(/assets/images/backgroundimage.png);
+    background-image: url(../images/backgroundimage.png);
     background-repeat: repeat;
     margin: 0;
 }
