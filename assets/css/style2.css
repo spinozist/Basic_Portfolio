@@ -3,7 +3,7 @@ header {
 }
 
 body { 
-    background-image: url(/Users/Machomutant/gt/homework/Basic_Portfolio/assets/images/backgroundimage.png);
+    background-image: url(/assets/images/backgroundimage.png);
     background-repeat: repeat;
     margin: 0;
 }
@@ -133,4 +133,10 @@ input, textarea {
 
 h3 {
     font-weight: lighter;
+}
+
+footer {
+    background-color: darkgrey;
+    height: 30px;
+    margin-top: 20px;
 }
