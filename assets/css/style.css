@@ -4,7 +4,9 @@ html {
 }
 
 header {
-    background-color: white;
+    background-color: #ffffff;
+    border-bottom: solid;
+    border-bottom: #cccccc;
 }
 
 body { 
@@ -15,7 +17,7 @@ body {
 }
 
 .name {
-    color: white;
+    color: #ffffff;
 }
 
 .header-box {
@@ -23,46 +25,48 @@ body {
     width: 960px;
     margin-left: auto;
     margin-right: auto;
-    height: 100px;
+    height: 90px;
 }
 
 .namebanner {
     float: left;
     background-color: #4aaaa5;
-    padding: 10px;
+    height: 90px;
+    padding: 0px 30px 0px 30px;
 }
 
 .topnav {
     float: right;
     height: 100px;
-    padding-top: 40px;
+    padding-top: 35px;
 }
 
 .box {
     float: center;
-    background-color: white;
+    background-color: #ffffff;
     width: 960px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 20px;
+    margin-top: 35px;
     padding-bottom: 20px;
+    border-color: #dddddd;
 }
 
 .inside-container {
-    padding: 20px;
+    padding: 30px;
 
 }
 .title {
     color: #4aaaa5;
     border-bottom: solid;
     border-bottom-color: darkgray;
-    padding-bottom: 20px;
+    padding: 15px 0px 20px 0px;
+    margin-top: -10px;
 }
 
 a {
     font-family: Arial, Helvetica, sans-serif;
-    padding-left: 10px;
-    font-size: 20px;
+    font-size: 16px;
     text-decoration: none;
     color: darkgrey;
 }
@@ -74,29 +78,27 @@ a {
 }
 
 #middle-butt {
-    border-right: solid;
-    border-right-color: darkgrey;
-    padding-right: 10px;
-    border-left: solid;
-    border-width: 1px;
-    border-left-color: darkgrey;
-}
-
-#left-butt {
-    padding-right: 10px;
+    border: solid;
+    border-color: #dddddd;
+    padding: 0px 10px 0px 10px;
+    margin: 0px 10px 0px 10px;
+    border-width: 0px 1px 0px 1px;
 }
 
 img {
     float: left;
-    margin-right: 20px;
-    margin-bottom: 20px;
     position: relative;
 }
 
+#profile-image {
+    margin: 0px 20px 20px 0px;
+}
+
 textarea {
-    max-width: 920px;
-    min-width: 920px;
+    max-width: 100%;
+    min-width: 100%;
     border-color: lightgrey;
+    margin-top: 5px;
 }
 
 p {
@@ -104,23 +106,35 @@ p {
     font-size: 18px;
     line-height: 30px;
     color: darkgrey;
+    font-weight: lighter;
 }
 
 input, textarea {
     width: 100%;
 }
 
+.contact-text {
+    line-height: 30px;
+}
+
 .submitbutton {
-    width: 60px;
     background-color: #4aaaa5;
     border-color: #4aaaa5;
     text-align: center;
     color: white;
-    padding: 5px;
+    width: 120px;
+    height: 30px;
+    padding: 10px 10px 10px 10x;
+    font-size: 14px;
+}
+
+.input-box {
+    padding: 5px 5px 5px 5px;
+    color: darkgrey;
 }
 
 #portfolio-box {
-    height: 1000px;
+    height: 940px;
     margin-bottom: 20px;
 }
 
@@ -128,6 +142,7 @@ input, textarea {
     float: left;
     position: relative;
     text-align: center;
+    margin: 20px 0px 30px 0px;
 }
 
 .image-label {
@@ -143,12 +158,12 @@ h3 {
 }
 
 footer {
-    background-color: darkgrey;
+    background-color: #666666;
     height: 50px;
     margin-top: 20px;
     border-top: solid;
     border-top-color: #4aaaa5;
-    border-top-width: 2px;
+    border-top-width: 5px;
     text-align: center;
     vertical-align: bottom;
     color: white;
@@ -166,7 +181,8 @@ footer {
 }
 
 .column-wrap {
-    width: 300px;
+    width: 250px;
+    margin-right: 40px;
     float: left;
 
 }
