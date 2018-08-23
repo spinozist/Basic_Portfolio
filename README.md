@@ -1,5 +1,5 @@
 # Basic_Portfolio
-Homework 1
+Homework 2.2 Responsive Layout using media queries1
 
 Background image from: 
 
